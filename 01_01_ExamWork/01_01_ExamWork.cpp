@@ -1,17 +1,85 @@
 #include <iostream>
+using namespace std;
+
+/*
+Гра представляє собою віртуальну мапу на які розташовані ігрові об’єкти (ресурси, ворогі...).
+Герой рухається по мапі та при знаходженні якогось з об’єктів вони взаємодіють: ресурси герой видобуває, з ворогом відбувається битва і тд.
+Ігрові об’єкти:
+Ø  Units
+v  Hero
+v  Enemy
+o   BigBoss (Dragon...)
+o   Monsters
+o   Animals
+
+Ø  Resources
+v  Gold
+o   Coins
+o   Nuggets
+v  Wood
+o   Deck
+o   Bush
+o   Tree
+v  Treasures
+v  Diamonds
+
+Видобуток ресурсів можна реалізувати як кількість умовних кроків, для кожного виду ресурсу вона буде відрізнятися, на приклад, щоб видобути палку герою потрібно зробити 1 крок і він отримує 1 шматок дерева, 2 крока для рубання куща – 2 шматка дерева і тд.
+Битва з ворогом повинна бути інтерактивна, враховуючи як теперішні характеристики героя (сила, спритність, витривалість і тд.) так і характеристики ворога. Після битви Герой отримує певний прибуток або збиток.
+Перемога всіх босів – це успішно пройдена гра! Якщо хтось з ворогів вбиває Героя, гра повинна закінчитися.
+Можна спробувати реалізувати магазин, який буде пропонувати різні об’єкти, які покращують характеристики (ніж, меч, лікі...), ціною їх буде певна кількість ігрових ресурсів (дерево, золото...).
+Інтерфейс взаємодії можна реалізувати через діалог в консолі з користувачем. Показ консолі повинен містити:
+1)      Поточна позиція користувача
+2)      Доступні дії переміщень і/або битва, видобуток
+3)      Попросіть прийняти якесь рішення
+4)      Отриману інформацію про виконані дії або досягнуті навички або об'єкти
+Якщо у вас є ідеї, щоб оновити, змінити або покращити геймплей, не соромтеся, а спробуйте!
+На виконання завдання у вас є достатньо часу. Удачі!
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
