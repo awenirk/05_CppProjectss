@@ -143,7 +143,6 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Hero.cpp" />
-    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Resource.cpp" />
     <ClCompile Include="Shop.cpp" />
     <ClCompile Include="Unit.cpp" />
@@ -152,7 +151,6 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Hero.h" />
-    <ClInclude Include="Item.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Shop.h" />
     <ClInclude Include="Unit.h" />
