@@ -25,7 +25,7 @@ public:
     */
 
     void attack()override {}
-    void takeDamage()override {}
+    void takeDamage(int d)override {}
 
 };
 

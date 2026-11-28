@@ -5,6 +5,7 @@ class Shop {
     int usedCoins;
 
 public:
+
     void smellItem() {}
 
 };

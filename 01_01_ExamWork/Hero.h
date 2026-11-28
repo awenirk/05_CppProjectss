@@ -20,7 +20,7 @@ public:
     Hero(int c): coins(c), resources(), inventory(), furnaceLvl() {}
 
     void attack()override {}
-    void takeDamage()override {}
+    void takeDamage(int d)override {}
 
 };
 
