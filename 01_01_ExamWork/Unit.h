@@ -10,5 +10,6 @@ class Unit {
 public:
     Unit(): name("No name"), hp(0) {}
 
+    virtual void atack() = 0;
     virtual void takeDamage() = 0;
 };
