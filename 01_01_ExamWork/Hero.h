@@ -2,7 +2,6 @@
 #include "Unit.h"
 #include "Resource.h"
 
-
 class Hero: public Unit {
     struct Inventory {
         ToolsLevel Sword = NONE;
@@ -14,14 +13,14 @@ class Hero: public Unit {
 	int coins;
     Resources resources;
     Inventory inventory;
-
-    int FurnaceLvl;
+    int furnaceLvl = 0;
 
 public:
-    Hero(): coins(0), resources(), inventory(NONE, NONE, NONE) {}
-    Hero(int c): coins(c), resources(), inventory(NONE, NONE, NONE) {}
+    Hero(): coins(0), resources(), inventory(), furnaceLvl() {}
+    Hero(int c): coins(c), resources(), inventory(), furnaceLvl() {}
 
-    void atack() {}
-    void takeDamage() {}
+    void attack()override {}
+    void takeDamage()override {}
+
 };
 

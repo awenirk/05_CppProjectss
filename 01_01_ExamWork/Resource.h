@@ -17,4 +17,28 @@ class Resources {
 
 public:
 
+    void getWood()const {}
+    void getPlanks()const {}
+    void getCobblestone()const {}
+    void getCoal()const {}
+    void getCopperOre()const {}
+    void getCopper()const {}
+    void getIronOre()const {}
+    void getIron()const {}
+    void getGoldOre()const {}
+    void getGold()const {}
+    void getDiamonds()const {}
+
+    void setWood() {}
+    void setPlanks() {}
+    void setCobblestone() {}
+    void setCoal() {}
+    void setCopperOre() {}
+    void setCopper() {}
+    void setIronOre() {}
+    void setIron() {}
+    void setGoldOre() {}
+    void setGold() {}
+    void setDiamonds() {}
+
 };

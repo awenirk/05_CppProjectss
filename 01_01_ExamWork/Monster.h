@@ -1,7 +1,8 @@
 #pragma once
 #include "Enemy.h"
 
-class Monster {
+class Monster: public Enemy {
     bool isBoss;
+
 };
 
